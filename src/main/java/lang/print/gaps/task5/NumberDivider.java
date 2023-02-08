@@ -2,11 +2,13 @@ package lang.print.gaps.task5;
 
 public class NumberDivider {
     void divide(int toBeDivided) {
-        int i = 1;
-        System.out.println(i);
+        toBeDivided = 10;
+        int result = toBeDivided / 5;
+        System.out.println(result);
     }
 
-    public static void main(String[] args) {
-
-    }
 }
+
+
+
+
